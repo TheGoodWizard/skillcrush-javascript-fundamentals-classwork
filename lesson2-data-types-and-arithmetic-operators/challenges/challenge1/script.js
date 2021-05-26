@@ -1,0 +1,11 @@
+/////////////////////////////////////////////////////////////////////////
+////////////////===--- Converting Celcius to Fahrenheit ---===///////////
+/////////////////////////////////////////////////////////////////////////
+
+var tempCelsius = 10;
+
+var toFahrenheit = tempCelsius * 1.8 + 32;
+
+console.log(
+  `Outside my friends's house is ${tempCelsius} degrees Celsius, which is ${toFahrenheit} degrees Fahrenheit.`
+);
